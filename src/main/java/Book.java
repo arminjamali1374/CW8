@@ -13,6 +13,6 @@
   public double getPrice() {
    return price;
   }
-
+     public abstract void setPrice();
 
  }
