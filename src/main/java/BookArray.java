@@ -14,6 +14,10 @@ public class BookArray {
         Book book10= new NonFiction("THEN");
 
         Book []books= {book1,book2,book3,book4,book5,book6,book7,book8,book9,book10};
+
+        for (int i = 0; i < books.length ; i++) {
+            System.out.println(books[i].getTitle()+" price is " + books[i].getPrice());
+        }
     }
 
 }
